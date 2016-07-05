@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BE5CEECA1D2BE9A300BE0F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CEEC91D2BE9A300BE0F7C /* AppDelegate.swift */; };
-		BE5CEECC1D2BE9A300BE0F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CEECB1D2BE9A300BE0F7C /* ViewController.swift */; };
-		BE5CEECF1D2BE9A300BE0F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5CEECD1D2BE9A300BE0F7C /* Main.storyboard */; };
 		BE5CEED11D2BE9A300BE0F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5CEED01D2BE9A300BE0F7C /* Assets.xcassets */; };
 		BE5CEED41D2BE9A300BE0F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5CEED21D2BE9A300BE0F7C /* LaunchScreen.storyboard */; };
 		BE5CEEDF1D2BE9A300BE0F7C /* PopoverDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CEEDE1D2BE9A300BE0F7C /* PopoverDemoTests.swift */; };
 		BE5CEEEA1D2BE9A300BE0F7C /* PopoverDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CEEE91D2BE9A300BE0F7C /* PopoverDemoUITests.swift */; };
+		BE5CEEF81D2BEA0E00BE0F7C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CEEF71D2BEA0E00BE0F7C /* HomeViewController.swift */; };
+		BE5CEEFA1D2BEB1E00BE0F7C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CEEF91D2BEB1E00BE0F7C /* MessageViewController.swift */; };
+		BE5CEEFC1D2BEB6B00BE0F7C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CEEFB1D2BEB6B00BE0F7C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,6 @@
 /* Begin PBXFileReference section */
 		BE5CEEC61D2BE9A300BE0F7C /* PopoverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5CEEC91D2BE9A300BE0F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE5CEECB1D2BE9A300BE0F7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE5CEECE1D2BE9A300BE0F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE5CEED01D2BE9A300BE0F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE5CEED31D2BE9A300BE0F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE5CEED51D2BE9A300BE0F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,9 @@
 		BE5CEEE51D2BE9A300BE0F7C /* PopoverDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5CEEE91D2BE9A300BE0F7C /* PopoverDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverDemoUITests.swift; sourceTree = "<group>"; };
 		BE5CEEEB1D2BE9A300BE0F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5CEEF71D2BEA0E00BE0F7C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE5CEEF91D2BEB1E00BE0F7C /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		BE5CEEFB1D2BEB6B00BE0F7C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				BE5CEEC91D2BE9A300BE0F7C /* AppDelegate.swift */,
-				BE5CEECB1D2BE9A300BE0F7C /* ViewController.swift */,
-				BE5CEECD1D2BE9A300BE0F7C /* Main.storyboard */,
 				BE5CEED01D2BE9A300BE0F7C /* Assets.xcassets */,
 				BE5CEED21D2BE9A300BE0F7C /* LaunchScreen.storyboard */,
 				BE5CEED51D2BE9A300BE0F7C /* Info.plist */,
+				BE5CEEF71D2BEA0E00BE0F7C /* HomeViewController.swift */,
+				BE5CEEF91D2BEB1E00BE0F7C /* MessageViewController.swift */,
+				BE5CEEFB1D2BEB6B00BE0F7C /* Extensions.swift */,
 			);
 			path = PopoverDemo;
 			sourceTree = "<group>";
@@ -231,7 +234,6 @@
 			files = (
 				BE5CEED41D2BE9A300BE0F7C /* LaunchScreen.storyboard in Resources */,
 				BE5CEED11D2BE9A300BE0F7C /* Assets.xcassets in Resources */,
-				BE5CEECF1D2BE9A300BE0F7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5CEECC1D2BE9A300BE0F7C /* ViewController.swift in Sources */,
 				BE5CEECA1D2BE9A300BE0F7C /* AppDelegate.swift in Sources */,
+				BE5CEEFA1D2BEB1E00BE0F7C /* MessageViewController.swift in Sources */,
+				BE5CEEF81D2BEA0E00BE0F7C /* HomeViewController.swift in Sources */,
+				BE5CEEFC1D2BEB6B00BE0F7C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE5CEECD1D2BE9A300BE0F7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE5CEECE1D2BE9A300BE0F7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE5CEED21D2BE9A300BE0F7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
